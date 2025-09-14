@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gonzalo",
+    "apellido": "Toledo",
+    "edad": 38,
+    "email": "gonzalo@gonzalo.com"
+  },
+  {
+    "nombre": "León",
+    "apellido": "Huck",
+    "edad": 20,
+    "email": "leon@leon.com",
+    "id": 2
+  }
+]

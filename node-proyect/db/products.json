@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Samsung Galaxy A26",
+    "caracteristicas": "5G 256 GB + Fit 3",
+    "precio": 699999
+  },
+  {
+    "id": 2,
+    "nombre": "Samsung Galaxy A06",
+    "caracteristicas": "128 GB",
+    "precio": 335999
+  },
+  {
+    "id": 3,
+    "nombre": "Motorola Moto G35",
+    "caracteristicas": "5G 128 GB",
+    "precio": 491999
+  },
+  {
+    "id": 4,
+    "nombre": "OPPO A60",
+    "caracteristicas": "256 GB",
+    "precio": 658999
+  },
+  {
+    "id": 5,
+    "nombre": "Samsung Galaxy A56",
+    "caracteristicas": "5G 256 GB",
+    "precio": 1136999
+  },
+  {
+    "id": 6,
+    "nombre": "Motorola Moto G75",
+    "caracteristicas": "5G 128 GB",
+    "precio": 555999
+  },
+  {
+    "id": 7,
+    "nombre": "Motorola Edge 50 Fusion",
+    "caracteristicas": "256 GB",
+    "precio": 819999
+  },
+  {
+    "id": 8,
+    "nombre": "Samsung Galaxy A15",
+    "caracteristicas": "128 GB",
+    "precio": 436999
+  },
+  {
+    "id": 9,
+    "nombre": "Xiaomi Redmi Note 13",
+    "caracteristicas": "128 GB",
+    "precio": 519999
+  },
+  {
+    "id": 11,
+    "nombre": "Nubia Focus Pro",
+    "caracteristicas": "5G 256 GB",
+    "precio": 539999
+  },
+  {
+    "id": 12,
+    "nombre": "Motorola Edge 50 Pro",
+    "caracteristicas": "512 GB",
+    "precio": 1329999
+  },
+  {
+    "nombre": "asd",
+    "caracteristicas": "dasdas",
+    "precio": 12312,
+    "id": 13
+  }
+]

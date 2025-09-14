@@ -1,0 +1,333 @@
+/* Estilos Generales */
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+}
+/*
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Mínimo el alto de la pantalla 
+}
+*/
+body {
+  background: linear-gradient(150deg, #161d22, #3a4d5c);
+  /* background-color: #161d22 ; */
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../public/images/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+} */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../public/images/img-home-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+} */
+
+
+
+/* Enlaces */
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #000000;
+}
+
+/* Botones */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 0.2rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #486072;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  border-color: #ffffff;
+  background-color: #2a31327e;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Preferencias para esquema claro */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+}
+
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Menú de SweetAlert2 */
+.swal-form-container .swal-form-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.swal-form-container label {
+  min-width: 80px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.swal-fixed {
+  width: 350px !important;
+  margin: 0 !important;
+}
+
+/* Estilos para el contenedor principal */
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+/* Títulos */
+h1, h2 {
+  color: #fff;
+  font-weight: bold;
+} 
+
+
+/* --- MENUBAR --- */
+.p-menubar {
+  /* background: #ffffff59; */
+  border: none;
+  font-weight:lighter;
+  padding: 1rem 1rem;
+}
+
+.rol-menu{
+  color: #ffffff;
+  font-weight: semibold;
+  font-size: 1.2rem;
+  margin: 1rem 2rem;  
+}
+
+.p-menuitem-text{
+  font-weight: bold;
+  /* color: #000000; */
+  color: white;
+  margin-left: 20px;
+  margin-top: 12px;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  transition: background 0.3s;
+  border-radius: 8px;
+}
+
+.custom-menubar .logo {
+    margin-left: 1rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* .p-menubar-root-list{
+  background-color: #ff4d4f;
+} */
+
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:hover {
+  background: #3b4445;
+}
+
+.p-submenu-list{
+  /* background: #3b4445; */
+  border-radius: 5px;
+  /* padding: 0.5rem 0; */
+}
+
+
+.p-menubar .p-submenu-list .p-menuitem-link {
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s;
+  border-radius: 8px;
+}
+
+.p-menubar .p-submenu-list .p-menuitem-link:hover {
+  background: #2a31327e;
+  border-radius: 5px;
+  
+  
+}
+
+
+/* products-list */
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #ffffff59;
+  padding: 1rem; 
+  border-radius: 8px;
+
+}
+
+.fieldsetAddProduct{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 1rem;
+  
+
+}
+
+/* form-unicorns */
+/* Form.css o donde quieras aplicar */
+
+.form-container {
+  max-width: 300px;
+  margin: 4rem auto;
+  padding: 1rem;
+  background-color: #ffffff59;
+  border-radius: 1%;
+  border: #ffffff solid 1px;  
+}
+
+.form-group {
+  margin-bottom: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-field {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.error-message {
+  color: #ff4d4f;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* table*/
+
+
+.custom-datatable {
+  margin: 4rem auto;
+  width: 90%;
+  max-width: 1200px;
+  background-color: #ffffff1e;
+  border-radius: 8px;
+  border: #ffffff solid 1px;
+  overflow: hidden;
+  
+}
+
+.custom-datatable .p-datatable-header {
+  background-color: #ffffff59;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align:center;
+  padding: 1rem;
+}
+
+
+.custom-datatable .p-datatable-thead > tr > th {
+  background-color: #ffffff59;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+
+
+.custom-datatable .p-datatable-tbody > tr > td {
+  font-size: 0.95rem;
+  padding: 0.75rem;
+  color: #fff;
+}
+
+
+.custom-datatable .p-paginator {
+  background-color: #ffffff59;
+  padding: 1rem;
+
+}
+
+.p-column-header-content{
+  justify-content: center;
+}
